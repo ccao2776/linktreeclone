@@ -1,0 +1,23 @@
+@import 'react-awesome-button/dist/themes/theme-blue.css';
+$path: "../../background.jpg";
+
+.root{
+    background-image: url($path);
+    height: 100vh;
+    .profile-section{
+        img{
+            border-radius:50%;
+            width:200px;
+            height:200px;
+            margin-top: 10px;
+            -webkit-user-drag: none;
+            user-select: none;
+        }
+        h1{
+            text-align: center;
+            font: 1.5em sans-serif;
+            color: white;
+            letter-spacing: .25rem;
+        }
+    }
+}
